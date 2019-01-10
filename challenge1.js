@@ -18,22 +18,18 @@
 //     } else {
 //     return true;
 
-    }
-}
-
-function isPalindrome(word) {
-    for (var i = word.length; i > 0; i++ ) {
-    let sechalf = str.split("", 1).reverse("", 1).join(""); 
-    if( palindrome.str.split("", 1) == sechalf) 
-        console.log("its a palindrome")
     
-} else {
-    console.log("its a palindrome")
 
 
-}
-}
-
+// function isPalindrome(word) {
+//     for (var i = word.length; i > 0; i++ ) {
+//     let sechalf = str.split("", 1).reverse("", 1).join(""); 
+//     if( palindrome.str.split("", 1) == sechalf) 
+//         console.log("its a palindrome")
+//     } else {
+//     console.log("its a palindrome")
+// }
+// }
 
 
 //INDEX str.indexOf()
@@ -42,3 +38,17 @@ function isPalindrome(word) {
 //for loop inside of an if else statement
 //if var string split is equal to second half of var string split backwards then palindrome
 //splitString.reverse
+
+function isPalindrome(str) {
+    str = str.toLowerCase();
+    let letters = str.length - 1;
+    for (let i = 0; i < letters; i++) {
+        if (str[i] != str[letters - i]) {
+            console.log("Sorry, that's not a palindrome.");
+        }
+        if (i === letters - i) 
+        console.log("You've got a palindrome!")
+    }
+}
+console.log(isPalindrome('Solos'));
+console.log(isPalindrome('Redo'));
