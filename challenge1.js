@@ -52,3 +52,15 @@ function isPalindrome(str) {
 }
 console.log(isPalindrome('Solos'));
 console.log(isPalindrome('Redo'));
+
+
+// SOLUTION:
+// function checker (str){
+//     let str = str.toLowerCase();
+//     let rev = str.split('').reverse().join('').toLowerCase();
+//     if(str == rev) {
+//       console.log("It's a palindrome")
+//     } else {
+//       console.log(`${str} is not a palindrome`)
+//     }
+//   }
