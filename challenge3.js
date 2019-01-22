@@ -28,9 +28,9 @@ let originalObject = {
 };
 
 let values = Object.values(originalObject);
-// console.log(values);
+console.log(values);
 let keys = Object.keys(originalObject);
-// console.log(keys);
+console.log(keys);
 
 
 let newObject = {
@@ -43,4 +43,6 @@ for (i=0; i < keys.length; i++) {
 }
 
 console.log(newObject);
+
+
 
