@@ -25,10 +25,7 @@ function add(e) {
     let num1 = parseInt(document.getElementById('input1').value);
     let num2 = parseInt(document.getElementById('input2').value);
     let result = num1 + num2;
-    return result;
-    
-    p.innerHTML() = result;
-    section.appendChild(p);
+    section.innerText = result;
 }
 
 
@@ -38,7 +35,7 @@ function subtract() {
     let num1 = parseInt(document.getElementById('input1').value);
     let num2 = parseInt(document.getElementById('input2').value);
     let result = num1 - num2;
-    return result;
+    section.innerText = result;
 
 }
 
@@ -47,7 +44,7 @@ function multiply() {
     let num1 = parseInt(document.getElementById('input1').value);
     let num2 = parseInt(document.getElementById('input2').value);
     let result = num1 * num2;
-    return result;
+    section.innerText = result;
 
 }
 
@@ -56,7 +53,7 @@ function divide() {
     let num1 = parseInt(document.getElementById('input1').value);
     let num2 = parseInt(document.getElementById('input2').value);
     let result = num1 / num2;
-    return result;
+    section.innerText = result;
 
 }
 
@@ -65,6 +62,6 @@ function modulus() {
     let num1 = parseInt(document.getElementById('input1').value);
     let num2 = parseInt(document.getElementById('input2').value);
     let result = num1 % num2;
-    return result;
+    section.innerText = result;
 
 }
